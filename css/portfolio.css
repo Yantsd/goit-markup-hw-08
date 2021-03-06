@@ -100,7 +100,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1200px;
   }
   .footer .container {
     display: -webkit-box;
@@ -448,7 +448,9 @@ img {
 
 /* LAYOUT */
 .header {
-  padding: 16px 0;
+  border-bottom: 1px solid #ECECEC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media screen and (max-width: 767px) {
@@ -638,7 +640,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: -18px;
+  margin: -15px;
 }
 
 @media screen and (max-width: 767px) {
