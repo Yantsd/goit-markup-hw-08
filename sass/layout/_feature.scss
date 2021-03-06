@@ -1,0 +1,107 @@
+.feature {
+    padding-top: 60px;
+    padding-bottom: 60px;
+} 
+
+
+.feature-container {
+    // height: 100vh;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    // margin: 0 auto;
+    background-color: var(--fon-our-team-color);
+}
+
+.feature-list__icon {
+    width: 100%;
+}
+
+.feature-list__subtitle {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-title-subtitle-color);
+}
+
+.feature-list__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--desk-link-color);
+}
+
+@media screen and (max-width: 767px) {
+    .feature-container {
+        max-width: 450px;
+        // height: 120px;
+        // display: flex;
+        // align-items: center;
+        // margin-bottom: 30px;
+        // background-color: var(--fon-our-team-color);
+    }
+    .feature-list__subtitle {
+        text-align: center;
+    }
+
+    .feature-list__item {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
+        .feature-container {
+            width: 354px;
+        }
+
+        .feature-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            // margin: -15px;
+        }
+    
+        .feature-list__item {
+            // width: 354px;
+            
+            width: calc((100% - 15px * 4) / 2);
+            margin: 15px;
+
+            // &:nth-child(-n+2) {
+            //     margin-bottom: 30px;
+            // }
+    
+            // &:nth-child(odd) {
+            //     margin-right: 30px;
+            // }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .feature {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    }
+    .feature-list {
+        display: flex;
+        align-items: center;
+    }
+    .feature-list__item {
+        width: 270px;
+    
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}

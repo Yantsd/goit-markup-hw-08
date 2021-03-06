@@ -1,0 +1,20 @@
+/* UTILS */
+@import "./utils/variables";
+
+/*BASE*/
+@import "./base/common";
+@import "./base/container";
+
+/* COMPONENTS */
+@import "./components/logotype";
+// @import "./components/nav-list";
+@import "./components/contacts-list";
+@import "./components/portfolio-btn";
+@import "./components/social-link";
+@import "./components/footer-form";
+@import "./components/button";
+
+/* LAYOUT */
+@import "./layout/header";
+@import "./layout/portfolio";
+@import "./layout/footer";
