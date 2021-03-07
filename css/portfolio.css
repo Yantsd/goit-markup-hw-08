@@ -59,9 +59,9 @@ img {
   justify-content: space-between;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 450px;
   }
 }
 
@@ -89,7 +89,7 @@ img {
   .footer .container {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: center;
   }
 }
 
@@ -137,11 +137,6 @@ img {
   .header .contacts-list {
     display: none;
   }
-}
-
-.contacts-list {
-  padding-top: 21px;
-  padding-bottom: 21px;
 }
 
 .contacts-list__link {
@@ -387,11 +382,10 @@ img {
     fill: var(--accent-color);
   }
   .mobile-menu {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 50%;
-    width: 100vw;
-    max-width: 400px;
+    width: 90vw;
     height: 85vh;
     padding: 48px 40px;
     overflow: auto;
@@ -429,7 +423,7 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) and (max-width: 320px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
   .mobile-menu__nav-link {
     font-size: 30px;
   }
@@ -454,16 +448,16 @@ img {
   }
   .mobile-menu__link-phone {
     font-weight: 500;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 1.176;
     letter-spacing: 0.02em;
     color: var(--accent-color);
   }
 }
 
-@media screen and (max-width: 767px) and (max-width: 320px) {
+@media screen and (max-width: 767px) and (min-width: 480px) {
   .mobile-menu__link-phone {
-    font-size: 30px;
+    font-size: 34px;
   }
 }
 
@@ -477,7 +471,7 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) and (max-width: 320px) {
+@media screen and (max-width: 767px) and (min-width: 480px) {
   .mobile-menu__link-mail {
     font-size: 20px;
   }
@@ -679,6 +673,10 @@ img {
   background-color: var(--fon-color);
 }
 
+.footer-form__label {
+  text-transform: uppercase;
+}
+
 .footer-text {
   margin-bottom: 20px;
   font-weight: 700;
@@ -700,5 +698,14 @@ img {
 
 .social-list__icon {
   fill: var(--text-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .address-container {
+    margin-right: 60px;
+  }
+  .footer-social-container {
+    margin-right: 73px;
+  }
 }
 /*# sourceMappingURL=portfolio.css.map */

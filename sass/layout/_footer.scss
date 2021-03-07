@@ -3,6 +3,10 @@
     background-color: var(--fon-color);
 }
 
+.footer-form__label {
+    text-transform: uppercase;
+}
+
 .footer-text {
     margin-bottom: 20px;
     font-weight: 700;
@@ -26,7 +30,15 @@
     fill: var(--text-color);
 }
 
+@media screen and (min-width: 1200px) {
+    .address-container {
+    margin-right: 60px;
+}
 
+    .footer-social-container {
+        margin-right: 73px;
+    }
+}
 
 // .footer .container {
 //     display: flex;
