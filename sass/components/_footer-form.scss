@@ -13,6 +13,11 @@
     line-height: 1.181;
     letter-spacing: 0.03em;
     color: var(--text-color);
+    margin-top: 60px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 0;
+    }
 }
 
 .footer-input {
@@ -35,7 +40,7 @@
         color: rgba(255, 255, 255, 0.6);
     }
 
-    @media screen and (max-width) {
+    @media screen and (max-width: 768px) {
         width: 100%;
     }
 }

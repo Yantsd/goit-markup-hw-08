@@ -1,12 +1,9 @@
+
+
 .social-list {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    @media screen and (max-width: 1199px) {
-        margin-bottom: 60px;
-        text-align: center;
-    }
 }
 
 .social-list__link {
@@ -26,15 +23,8 @@
                     background-color: var(--accent-color);
                     fill: var(--text-color);
                 }
+                
 }
-
-// @media screen and (max-width: 767px) {
-//     .social-list {
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//     }
-// }
 
 
 

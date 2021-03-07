@@ -9,5 +9,7 @@
 
     mobileBtnClose.addEventListener('click', () => {
       mobileMenuRef.classList.toggle("is-open");
+      refs.modal.classList.toggle('is-hidden');
     });
   })()
+
