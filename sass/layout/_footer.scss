@@ -1,10 +1,17 @@
 .footer {
+    // width: 1230px;
     padding: 60px 0;
     background-color: var(--fon-color);
+    // background-position: center;
 }
 
-.footer-form__label {
-    text-transform: uppercase;
+.address {
+    // width: 231px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
 }
 
 .footer-text {
@@ -32,12 +39,12 @@
 
 @media screen and (min-width: 1200px) {
     .address-container {
-    margin-right: 60px;
+    margin-right: 70px;
 }
 
-    .footer-social-container {
-        margin-right: 73px;
-    }
+.footer-social-container {
+    margin-right: 93px;
+}
 }
 
 // .footer .container {
@@ -47,7 +54,7 @@
 // }
 
 // .address {
-//     width: 231px;
+    // width: 231px;
 //     font-style: normal;
 //     font-weight: 400;
 //     font-size: 14px;

@@ -61,6 +61,9 @@
 }
 
 @media screen and (min-width:1200px) {
+    .clients-list {
+        justify-content: space-between;
+    }
     .clients-list__item {
         width: 170px;
     }
